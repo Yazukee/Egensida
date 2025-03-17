@@ -9,14 +9,14 @@ function OmMig() {
           className="w-60 h-60 object-cover rounded-full shadow-lg"
         /> */}
         <p className="text-lg leading-relaxed">
-          Att <b>våga gå sin egen väg</b> är Yasers största fråga är varför så
+          Att <b>våga gå sin egen väg</b> är Yasers största fråga, varför så
           många väljer att inte följa sina drömmar. I sin bok{" "}
-          <b>Kostnaden att inte välja sin väg</b>
+          <b>Kostnaden att inte välja sin väg </b>
           delar han med <b>livsnycklar</b> och <b> insikter</b> för att
           inspirera andra att <b>våga</b> ha modet trots rädslan att gå för det
           man drömmer om. <br />
           Det va aldrig menat att någon skulle vara hjälte eller komma och rädda
-          dig i din historia, <br /> du är den som var menad att var hjälte i
+          dig i din historia, <br /> du är den som var menad att var hjälten i
           din historia!
         </p>
       </div>
