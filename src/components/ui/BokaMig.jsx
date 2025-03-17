@@ -18,23 +18,30 @@ function BokaMig() {
     <section id="book" className="py-20 px-6 md:px-20 bg-gray-100">
       <h2 className="text-3xl font-bold mb-8 text-center">Boka mig</h2>
       <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-4">
+        {/* Namn */}
         <input
           type="text"
           name="namn"
           placeholder="Namn"
           className="w-full p-3 border rounded"
           required
+          minLength={2}
+          title="Ange minst 2 tecken"
         />
 
+        {/* E-post */}
         <input
           type="email"
           name="email"
           placeholder="E-post"
           className="w-full p-3 border rounded"
           required
+          pattern="^[^@]+@[^@]+\.[^@]+$"
+          title="Ange en giltig e-postadress"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
 
+        {/* Företag */}
         <input
           type="text"
           name="företag"
@@ -42,12 +49,15 @@ function BokaMig() {
           className="w-full p-3 border rounded"
         />
 
+        {/* Meddelande */}
         <textarea
           name="message"
           placeholder="Vad vill ni boka mig för?"
           rows={5}
           className="w-full p-3 border rounded"
           required
+          minLength={10}
+          title="Meddelandet måste vara minst 10 tecken"
         />
         <ValidationError
           prefix="Message"
@@ -55,6 +65,7 @@ function BokaMig() {
           errors={state.errors}
         />
 
+        {/* Skicka-knapp */}
         <Button
           type="submit"
           disabled={state.submitting}
