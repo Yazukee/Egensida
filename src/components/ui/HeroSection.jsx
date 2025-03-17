@@ -2,7 +2,7 @@ import { Button } from "./button";
 
 function HeroSection() {
   return (
-    <section className="h-screen flex items-center justify-center bg-[url('./assets/karlYaser.jpg')] bg-contain bg-center bg-no-repeat relative mt-15 ">
+    <section className="h-screen flex items-center justify-center bg-[url('./KarlYaser.jpg')] bg-contain bg-center bg-no-repeat relative mt-15 ">
       {/* Mörk over Lay  */}
       <div className="absolute inset-0 bg-black opacity-50" />
 

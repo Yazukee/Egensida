@@ -12,9 +12,10 @@ function OmMig() {
             <b>våga gå sin egen väg</b>
           </u>{" "}
           är Yasers största fråga, varför så många väljer att inte följa sina
-          drömmar. I sin bok{" "}
+          drömmar.
+          <br />
           <u>
-            <b>Kostnaden att inte välja sin väg</b>
+            <b>I sin bok: Kostnaden att inte välja sin väg</b>
           </u>{" "}
           delar han med{" "}
           <u>
